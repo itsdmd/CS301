@@ -1,0 +1,2 @@
+NSCameraUsageDescription = "Quyền truy cập camera cho phép bạn chụp hình khi tạo và chỉnh sửa tác vụ.";
+NSPhotoLibraryUsageDescription = "Quyền truy cập thư viện hình ảnh cho phép bạn tải ảnh của mình lên khi tạo và chỉnh sửa tác vụ.";

@@ -1,0 +1,32 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "tasks",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "is_subtask",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "due_time",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tasks",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "parent",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "due_time",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
